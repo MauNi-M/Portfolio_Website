@@ -1,0 +1,92 @@
+/*!
+ * Start Bootstrap - Clean Blog v5.0.9 (https://startbootstrap.com/themes/clean-blog)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/LICENSE)
+ */
+
+/*Header*/
+
+header.header_background{
+    background: url("https://images.wallpaperscraft.com/image/single/coffee_cup_wooden_surface_106291_3264x2448.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+
+}
+
+header div.header_background_overlay{
+    background-color: rgba(0,0,0,0.5);
+    min-height: 100vh;
+}
+@media (max-width: 767.98px){
+    .header div.header_background_overlay{
+        min-height: 35vh;
+    }
+}
+header a.social-media{
+    color: rgba(255,255,255,0.5);
+}
+header a.social-media:hover{
+    color: white;
+}
+
+header p {
+    font-size: 1.1em;
+    color: rgba(255,255,255,0.5);
+}
+/*****Main Content*****/
+section.main-content{
+margin-top: 60px;
+}
+/*project slider*/
+.carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+}
+
+div#main-slider{
+    border-radius: 50px;
+}
+div.carousel-item{
+    background: black;
+    border-radius: 50px;
+}
+div.carousel-item img {
+    width: 100%;
+    height: 50vh;
+}
+
+
+/*profile information*/
+div.carousel-caption p{
+    color: white;
+    opacity: 0.8;
+}
+
+div.me-info-inner{
+    background: rgba(0,0,0,0.3);
+    padding: 5%;
+    border-radius: 15px;
+}
+.square {
+    width: 10vw;
+    height: 10vw;
+    /*width: 40%;*/
+    /*position: relative;*/
+}
+
+/*.square:after {*/
+/*      content: "";*/
+/*      display: block;*/
+/*      padding-bottom: 100%;*/
+/*}*/
+
+div.me-info-inner div.background-overlay div.square img{
+    object-position: center;
+    border-radius: 50%;
+    object-fit: cover;
+    /*position: absolute;*/
+    width: 100%;
+    height: 100%;
+}
+

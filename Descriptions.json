@@ -1,0 +1,6 @@
+{
+    "Morse_Code": "App that translates any phrase into morse code with sound",
+    "TicTacToe": "Simple game that uses Reinforcement Learning as AI",
+	"Wallpaperscraft": "Webscraping tool, only works on wallpaperscraft.com, gets links of images",
+	"Portfolio_Website": "Basic website with my projects, uses python and databases"
+}
